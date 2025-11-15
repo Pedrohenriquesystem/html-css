@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: burlywood;
+            margin: 0px;
+        }
+        header{
+            background-color: gainsboro;
+            padding: 5px;
+            margin: 10px ;
+            text-align: center;
+        }
+
+        main{
+             background-color: gainsboro;
+            padding: 5px;
+            margin: 10px ;
+            text-align:center;
+            border-radius: 10px;
+        }
+        footer{
+            background-color: rgba(0, 0, 0, 0.548);
+            color: white;
+            text-align: center;
+            padding: 2px;
+            
+           
+        }
+        article{
+            background-color: rgba(210, 105, 30, 0.488);
+        }
+        article > aside{
+            background-color: #f56904c8;
+        }
+        h1{
+            background-color: bisque;
+            box-shadow:inset -3px 2px 20px  rgba(0, 0, 0, 0.544);
+          }
+
+          footer > p{
+            margin: 0px;
+          }
+
+          nav{
+            background-color:#953f018f ;
+            box-shadow:  4px 2px 13px 10px rgba(0, 0, 0, 0.596) ;
+          }
+
+          div#vazio{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(95, 0, 95);
+            margin: 10px;
+            border-radius: 50%;
+          }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias da semana sobre o bostil </h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eum culpa dolorem quia nobis labore aut reiciendis ducimus pariatur nam! Quo praesentium fugit veritatis totam quibusdam esse aut quam nisi?</p>
+                <aside>
+                    artigo escrito por Meupaul kiti kutuka
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>desemvolvido por P3dro fuguete</p>
+    </footer>
+    <div id="vazio"></div>
+</body>
+</html>
